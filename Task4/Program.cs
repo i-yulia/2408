@@ -8,8 +8,8 @@ Console.Write("Введите первое число: ");
 int numberC = int.Parse(Console.ReadLine());
 int max = numberA;
 if (numberB > max)
-max = numberB;
+    max = numberB;
 if (numberC > max)
-numberC = max;
+    numberC = max;
 Console.Write($"Максимальное число = {max}");
 
